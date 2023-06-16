@@ -14,7 +14,7 @@ def get_csv_dimensions(folder_path):
     return file_dimensions
 
 # Ejemplo de uso
-folder_path = r'C:\Users\edgar\OneDrive\Escritorio\Ryanprojecto\CSV\csv_fusionado.csv'
+folder_path = r'C:\Users\edgar\OneDrive\Escritorio\Ryanprojecto\CSV\csv_procesados'
 dimensions = get_csv_dimensions(folder_path)
 
 for file, (rows, columns) in dimensions.items():

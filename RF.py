@@ -6,7 +6,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix
-
+import pickle
 # Paso 1: Cargar el archivo CSV procesado
 df = pd.read_csv('C:/Users/edgar/OneDrive/Escritorio/Ryanprojecto/CSV/csv_fusionado_processed.csv')
 
@@ -37,3 +37,6 @@ plt.xlabel('Etiqueta Predicha')
 plt.ylabel('Etiqueta Verdadera')
 plt.title('Matriz de Confusión')
 plt.show()
+
+with open('random_forest.pkl', 'wb') as f:
+    pickle.dump(clf, f)

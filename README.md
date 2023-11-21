@@ -1,8 +1,7 @@
 # RFEEG: EEG Data Processing and Analysis
 
 ## Descripción
-RFEEG es un proyecto dedicado al procesamiento y análisis de datos de electroencefalograma (EEG). Este repositorio contiene scripts en Python para la manipulación, análisis y visualización de datos EEG.
-
+RFEEG es un proyecto dedicado al procesamiento y análisis de datos de electroencefalograma (EEG). Utiliza una serie de scripts en Python para preparar, manipular y analizar datos de EEG, incluyendo la implementación de un modelo de Random Forest para la clasificación o análisis.
 ## Instalación
 
 Para instalar y ejecutar este proyecto, siga estos pasos:

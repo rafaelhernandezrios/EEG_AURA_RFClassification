@@ -6,7 +6,7 @@ import seaborn as sns
 from sklearn.metrics import confusion_matrix
 
 # Paso 1: Cargar el archivo CSV procesado
-df = pd.read_csv('C:/Users/edgar/OneDrive/Escritorio/Ryanprojecto/CSV/csv_fusionado_processed.csv')
+df = pd.read_csv('./CSV/csv_fusionado_processed.csv')
 
 # Paso 2: Dividir los datos en características y etiquetas
 X = df[['Mean', 'STD', 'Asymmetry']]

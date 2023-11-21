@@ -34,5 +34,5 @@ def normalize_and_filter_csv(input_file):
     print(f"Processed CSV file generated: {output_file}")
 
 # Example usage
-input_file = r'C:\Users\edgar\OneDrive\Escritorio\Ryanprojecto\CSV\csv_fusionado.csv'
+input_file = r'.\CSV\csv_fusionado.csv'
 normalize_and_filter_csv(input_file)

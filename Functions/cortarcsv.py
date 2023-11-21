@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 # Directorio de los archivos CSV
-folder_path = 'C:/Users/edgar/OneDrive/Escritorio/Ryanprojecto/CSV'
+folder_path = './CSV'
 
 # Obtener la lista de archivos CSV en el directorio
 csv_files = [file for file in os.listdir(folder_path) if file.endswith('.csv')]

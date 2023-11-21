@@ -23,6 +23,6 @@ def concatenate_csv_files(folder_path, output_file):
 
     print(f"Archivos CSV concatenados y guardados en: {output_file}")
 # Ejemplo de uso
-folder_path = r'C:\Users\edgar\OneDrive\Escritorio\Ryanprojecto\CSV\csv_procesados'
-output_file = r'C:\Users\edgar\OneDrive\Escritorio\Ryanprojecto\CSV\csv_fusionado.csv'
+folder_path = r'.\CSV\csv_procesados'
+output_file = r'.\CSV\csv_fusionado.csv'
 concatenate_csv_files(folder_path, output_file)
